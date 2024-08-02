@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-Hans',
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: '/dv/VitePress/',
+  base: '/dv/',
   // markdown文件的根目录
   srcDir: 'docs',
   markdown: {
