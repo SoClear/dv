@@ -6,6 +6,12 @@ export default defineConfig({
   lang: 'zh-Hans',
   title: "My Awesome Project",
   description: "A VitePress Site",
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://font.sec.miui.com/font/css?family=MiSans:400,700:MiSans' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap', rel: 'stylesheet' }]
+  ],
   base: '/dv/',
   // markdown文件的根目录
   srcDir: 'docs',
@@ -49,7 +55,7 @@ export default defineConfig({
                 "items": [
                   {
                     "text": "介绍",
-                    "link": "/InfoTech/ProgramingLanguages/C/introduce.md"
+                    "link": "InfoTech/ProgramingLanguages/C/introduce.md"
                   },
                   {
                     "text": "程序结构",
