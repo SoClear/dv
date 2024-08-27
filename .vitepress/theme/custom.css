@@ -2,3 +2,11 @@
     --vp-font-family-base: "MiSans";
     --vp-font-family-mono: "JetBrains Mono";
 }
+
+mjx-assistive-mml[display="block"] {
+    height: -webkit-fill-available;
+}
+
+mjx-container[display="true"]>svg {
+    padding-right: 5px;
+}
