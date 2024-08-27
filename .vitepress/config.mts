@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // VitePress 配置文件
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   lang: 'zh-Hans',
   title: "My Awesome Project",
   description: "A VitePress Site",
